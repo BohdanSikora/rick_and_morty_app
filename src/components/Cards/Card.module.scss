@@ -1,0 +1,24 @@
+$radius: 10px;
+
+.card {
+  border: 1px solid #a1bde7;
+  border-radius: $radius;
+}
+
+.content {
+  padding: 10px;
+  color:rgb(108, 203, 243);
+  background: rgb(12, 45, 117);
+}
+
+.img {
+  border-radius: $radius $radius 0 0;
+  border: 1px solid #a1bde7;
+}
+
+.badge {
+  top: 10px;
+  right: 20px;
+  font-size: 17px;
+}
+
